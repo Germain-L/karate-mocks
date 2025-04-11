@@ -23,7 +23,7 @@ This repository demonstrates how to use Karate's mock server feature to test a S
 
 ### Flow Diagram (Normal vs. Test)
 
-```
+```ascii
 Normal Flow:
 +-----------------+       +-------------------+
 | Spring Boot App |------>| Real External API |
@@ -50,14 +50,18 @@ Test Flow:
 ## How to Run
 
 ### Prerequisites
+
 - JDK 11 or higher
 - Maven (or use the included Maven wrapper)
 
 ### Running Tests
+
 ```bash
 ./mvnw test
 ```
+
 This command will:
+
 1. Compile the application
 2. Start the Karate mock server
 3. Start the Spring Boot application
